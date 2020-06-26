@@ -24,7 +24,7 @@ public class GateView extends FixedPanel implements ActionListener, MouseListene
     private Color color;
 
     public GateView(Gate gate) {
-        super(300, 150);
+        super();
 
         this.gate = gate;
 
